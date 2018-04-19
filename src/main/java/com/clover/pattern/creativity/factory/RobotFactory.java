@@ -1,7 +1,7 @@
 package com.clover.pattern.creativity.factory;
 
 import com.clover.api.tools.common.utils.StringUtil;
-import com.clover.pattern.inter.IRobotSV;
+import com.clover.pattern.inter.Robot;
 import com.clover.pattern.inter.impl.AgedRobot;
 import com.clover.pattern.inter.impl.BabyRobot;
 import com.clover.pattern.inter.impl.YoungRobot;
@@ -22,7 +22,7 @@ public class RobotFactory {
 	 * @time 2018年4月19日 下午4:04:57
 	 * @param type
 	 */
-	public IRobotSV getRobot(String type) {
+	public Robot getRobot(String type) {
 		if (StringUtil.isEmpty(type)) {
 			return null;
 		}

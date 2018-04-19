@@ -7,7 +7,7 @@ package com.clover.pattern.inter;
  * @Email qiang900714@126.com
  * @time 2018年4月19日 下午3:58:09
  */
-public interface IRobotSV {
+public interface Robot {
 	/**
 	 * 行走接口
 	 * 

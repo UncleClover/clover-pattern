@@ -1,6 +1,6 @@
 package com.clover.pattern.inter.impl;
 
-import com.clover.pattern.inter.IRobotSV;
+import com.clover.pattern.inter.Robot;
 
 /**
  * 青年机器人
@@ -9,7 +9,7 @@ import com.clover.pattern.inter.IRobotSV;
  * @Email qiang900714@126.com
  * @time 2018年4月19日 下午4:02:09
  */
-public class YoungRobot implements IRobotSV {
+public class YoungRobot implements Robot {
 
 	@Override
 	public void walk() {

@@ -1,8 +1,8 @@
 package com.clover.pattern.inter.impl;
 
-import com.clover.pattern.inter.IRobotSV;
+import com.clover.pattern.inter.Robot;
 
-public class AgedRobot implements IRobotSV {
+public class AgedRobot implements Robot {
 
 	@Override
 	public void walk() {
