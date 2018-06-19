@@ -5,7 +5,7 @@ import com.clover.pattern.inter.Robot;
 /**
  * 青年机器人
  * 
- * @author zhangdq
+ * @author UncleClover
  * @Email qiang900714@126.com
  * @time 2018年4月19日 下午4:02:09
  */

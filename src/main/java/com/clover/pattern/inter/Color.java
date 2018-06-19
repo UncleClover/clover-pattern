@@ -1,19 +1,20 @@
 package com.clover.pattern.inter;
 
 /**
- * 机器人接口
+ * 颜色接口
  * 
  * @author UncleClover
  * @Email qiang900714@126.com
- * @time 2018年4月19日 下午3:58:09
+ * @time 2018年4月20日 上午10:44:33
  */
-public interface Robot {
+public interface Color {
+	
 	/**
-	 * 行走接口
+	 * 填充颜色
 	 * 
 	 * @author UncleClover
 	 * @Email qiang900714@126.com
-	 * @time 2018年4月19日 下午3:58:37
+	 * @time 2018年4月20日 上午10:44:43
 	 */
-	void walk();
+	void fill();
 }

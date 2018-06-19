@@ -9,7 +9,7 @@ import com.clover.pattern.inter.impl.YoungRobot;
 /**
  * 机器人工厂
  * 
- * @author zhangdq
+ * @author UncleClover
  * @Email qiang900714@126.com
  * @time 2018年4月19日 下午4:04:32
  */
@@ -17,7 +17,7 @@ public class RobotFactory {
 	/**
 	 * 获取某一类型的机器人
 	 * 
-	 * @author zhangdq
+	 * @author UncleClover
 	 * @Email qiang900714@126.com
 	 * @time 2018年4月19日 下午4:04:57
 	 * @param type
