@@ -4,8 +4,8 @@ buildscript {
 	}
 	repositories {
 		// mavenCentral()
-		maven { url "http://127.0.0.1:8082/nexus/content/groups/public/"} 
-		// maven {url "http://maven.aliyun.com/nexus/content/groups/public/"}
+		// maven { url "http://127.0.0.1:18082/nexus/content/repositories/central/"} 
+		maven {url "http://127.0.0.1:18081/repository/maven-public/"}
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -22,8 +22,8 @@ sourceCompatibility = 1.8
 
 repositories {
 	// mavenCentral()
-	maven { url "http://127.0.0.1:8082/nexus/content/groups/public/"} 
-	//maven {url "http://maven.aliyun.com/nexus/content/groups/public/"}
+	// maven { url "http://127.0.0.1:18082/nexus/content/repositories/central/"} 
+	maven {url "http://127.0.0.1:18081/repository/maven-public/"}
 }
 
 sourceSets{
@@ -43,4 +43,9 @@ configurations{
 
 dependencies {
 	compile "com.clover.api:tools:1.0.2-SNAPSHOT"
+	
+	testCompile(
+    	"org.springframework:spring-test:4.1.7.RELEASE",
+        "junit:junit:4.12"
+    )
 }

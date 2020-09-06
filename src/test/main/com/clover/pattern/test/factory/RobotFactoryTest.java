@@ -1,6 +1,6 @@
 package com.clover.pattern.test.factory;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.clover.pattern.creativity.factory.RobotFactory;
 import com.clover.pattern.inter.Robot;
