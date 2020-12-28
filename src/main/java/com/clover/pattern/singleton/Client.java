@@ -15,6 +15,8 @@ public class Client {
 		balance2.addServer("server2");
 		balance3.addServer("server3");
 		balance4.addServer("server4");
+		String a = "Hello";
+		String b = "Hello";
 
 		for (int i = 0; i < 10; i++) {
 			System.out.println(balance1.getServer());
